@@ -42,49 +42,57 @@ const albuns = [
     {
         nome: "Nadando Com os Tubarões",
         capa: "imgs/tubaroes.png",
-        ano: 2000
+        ano: 2000,
+        musicas :[]
     },
 
     {
         nome: "100% Charlie Brown Jr - Abalando a Sua Fábrica",
         capa: "imgs/100cbjr.png",
-        ano: 2001
+        ano: 2001,
+        musicas :[]
     },
 
     {
         nome: "Ritmo, Ritual E Responsa",
         capa: "imgs/responsa.png",
-        ano: 2007
+        ano: 2007,
+        musicas :[]
     },
 
     {
         nome: "Tamo Ai Na Atividade",
         capa: "imgs/tamoai.png",
-        ano: 2004
+        ano: 2004, 
+        musicas :[]
     },
 
     {
         nome: "La Família",
         capa: "imgs/lafamilia.png",
-        ano: 2013
+        ano: 2013,
+        musicas :[]
     },
 
     {
         nome: "Camisa 10 Joga Bola Até na Chuva",
         capa: "imgs/camisa.png",
-        ano: 2009
+        ano: 2009,
+        musicas :[]
     },
 
     {
         nome: "Imunidade Musical",
         capa: "imgs/imunidade.png",
-        ano: 2005
+        ano: 2005,
+        musicas :[]
     },
 
     {
         nome: "Bocas Ordinárias",
         capa: "imgs/bocas.png",
-        ano: 2002
+        ano: 2002,
+        musicas :[]
     }
 ]
 function playpause(){
@@ -109,11 +117,19 @@ function atualizarPlayer() {
 
     fundo.style.backgroundImage = `url(${albuns[albumAtual].capa})` 
 }
+
+// DAQUI PRA FRENTE, É SO PRA TRAS/////////////////////
+
 function proximoAlbum(){
 
     albumAtual++
 
     musicaAtual = 0
+
+    musica.pause()
+
+    tocando = false
+   
 
 atualizarPlayer()
 }
@@ -122,6 +138,11 @@ function Albumanterior(){
     albumAtual--
 
     musicaAtual = 0
+
+    musica.pause()
+
+    tocando - false
+   
 
 atualizarPlayer()
 }

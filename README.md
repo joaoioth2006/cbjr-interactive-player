@@ -2,11 +2,15 @@
 
 Projeto desenvolvido para praticar **HTML, CSS, JavaScript, Git e GitHub** através da criação de um player inspirado na discografia do **Charlie Brown Jr.**
 
+O objetivo do projeto é evoluir meus conhecimentos em desenvolvimento Front-end construindo uma aplicação real, adicionando novas funcionalidades gradualmente e aplicando boas práticas de organização de código.
+
+---
+
 ## 🚧 Status do Projeto
 
-Em desenvolvimento.
+🟡 Em desenvolvimento.
 
-Atualmente o projeto possui uma interface funcional e estilizada utilizando **Glassmorphism**, reprodução de músicas e navegação entre álbuns.
+Atualmente o projeto possui uma interface funcional com navegação entre álbuns, reprodução de músicas e gerenciamento básico do estado do player.
 
 ---
 
@@ -23,8 +27,10 @@ Atualmente o projeto possui uma interface funcional e estilizada utilizando **Gl
 * [x] Overlay escuro sobre o background
 * [x] Reprodução de músicas
 * [x] Botão Play/Pause
-* [x] Próximo álbum
-* [x] Álbum anterior
+* [x] Navegação para o próximo álbum
+* [x] Navegação para o álbum anterior
+* [x] Reset da música ao trocar de álbum
+* [x] Sincronização do estado do player ao trocar de álbum
 * [x] Organização do código através da função `atualizarPlayer()`
 * [x] Versionamento utilizando Git
 * [x] Repositório hospedado no GitHub
@@ -33,12 +39,15 @@ Atualmente o projeto possui uma interface funcional e estilizada utilizando **Gl
 
 ## 🔜 Próximas funcionalidades
 
-* [ ] Lista interativa com todos os álbuns
+* [ ] Adicionar músicas para todos os álbuns
+* [ ] Exibir o nome da música atual
 * [ ] Barra de progresso
 * [ ] Controle de tempo da música
-* [ ] Exibição do nome da faixa atual
-* [ ] Troca automática para a próxima música
+* [ ] Próxima música
+* [ ] Música anterior
 * [ ] Lista de músicas por álbum
+* [ ] Lista interativa de álbuns
+* [ ] Troca automática para a próxima música
 * [ ] Animação suave na troca de background
 * [ ] Responsividade para dispositivos móveis
 
@@ -50,8 +59,10 @@ Atualmente o projeto possui uma interface funcional e estilizada utilizando **Gl
 * Eventos (`onclick`)
 * Arrays e Objetos
 * Objeto `Audio`
+* Controle de estado da aplicação
+* Atualização dinâmica da interface
 * Atualização dinâmica de estilos CSS
-* Controle de estado com JavaScript
+* Organização de código em funções
 * Glassmorphism
 * Flexbox
 * Git e GitHub
@@ -70,7 +81,7 @@ Atualmente o projeto possui uma interface funcional e estilizada utilizando **Gl
 
 ## 📸 Preview
 
-*(Adicionar screenshot ou GIF futuramente)*
+*(Adicionar screenshot ou GIF futuramente.)*
 
 ---
 
